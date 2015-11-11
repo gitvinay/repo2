@@ -1,5 +1,5 @@
 <project name="build" default="dist">
-<property name="appversion" value="app1.0">
+<property name="appversion" value="app1.0"/>
 <target name="clean">
 <delete dir="build/classes"/>
 <delete dir="build/jar"/>
@@ -33,8 +33,7 @@
 	<fileset dir="build/web"/>
 	<fileset dir="build/jar"/>
 	
-	</zip>
-	</target>
-</property>
-	</project>	
+</zip>
+</target>
+</project>	
 
